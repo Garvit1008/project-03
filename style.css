@@ -1,0 +1,626 @@
+body{
+    padding:0%;
+    margin:0%
+}
+html{
+    scroll-behavior: smooth;
+}
+.main{
+    position: fixed; 
+    width: 100%; 
+    margin: 0;
+    padding: 4px 10px;
+}
+ 
+.nav img{
+    margin: 10px 0px 0px 50px ;
+
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.nav a{
+    text-decoration: none;
+    margin-right: 17.5px; 
+    padding-top: 10px;
+}
+
+.nav1{
+    display: flex;
+    margin: 20px;
+}
+
+.nav1 li a{
+    text-decoration: none;
+    list-style: none;  
+    color: #ffffffb3; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin: 12px;
+    transition: 0.5s;
+}
+.nav1 li a:hover{
+    color: whitesmoke;
+}
+
+.nav2{
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 90px;
+    background-color: rgb(14, 13, 13);
+    margin: 0;
+    padding: 90px;
+}
+
+.bod{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav2{
+    background-image: url("https://codeyogi.io/images/bgbanner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav2 h1{
+    font-size: 55px;
+    letter-spacing: 6;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFFCC;
+}
+
+.nav2 p {
+    margin-top: -10px;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 50;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffffb3;
+}
+
+.button{   
+    background-color: #FFFFFFCC;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 20px;
+    width: 230px;
+    padding: 15px 15px 15px 10px;
+    display: flex;
+    justify-content: center;
+    margin: 200px 0px 10px 0px;
+    margin-top: 150px;
+}
+
+.hutton{
+    background-color: #FFFFFFCC;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 20px;
+    width: 90px;
+    padding: 10px 37px;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.hutton a{
+    color: black;
+    text-decoration: none;
+    font-weight: 100;
+    letter-spacing: 2;
+    font-size: 12PX;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+.hutton:hover{
+    background-color: white;
+}
+.button a{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    letter-spacing: 2;
+    font-size: medium;
+    
+}
+
+.button:hover{
+background-color: white;
+}
+
+
+  .diamond-shape {
+    background: #fff;
+    height: 20px;
+    text-align: center;
+    transform:rotate(45deg);
+      width:20px;
+      margin-top: 30px;
+      border-radius: 2px;
+      margin-bottom: 5px;
+      justify-content: center;
+  }
+  .oops{
+    transform: rotate(-45deg);
+    margin:5px 6px;
+  }
+.mid{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 160px;
+    margin-top: 150px;
+
+}
+
+.mid1{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.mid2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    align-items: start;
+    margin-left: 90px;
+    font-size: 16px;
+}
+
+.mid3{
+    color: gray;
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-left: 90px;
+    font-size: 16px;
+}
+
+.mid4{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    margin-left: 90px;
+    font-size: 16px;
+
+}
+h4{
+
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-family: Dosis, arial, sans-serif;
+}
+h2{
+    display: flex;
+    flex-direction: column;
+    font-family: Dosis, arial, sans-serif;
+    margin-bottom: 80px;
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5em;
+    line-height: 1.4;
+}
+
+.bumro{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+.sumro{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+.tumro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pumro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pumro p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    color: #777;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.86;
+}
+.tumro p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    color: #777;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.86;
+}
+
+.lumro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.damru{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.damru p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    color: #777;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.86;
+}
+.lumro p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    color: #777;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.86;
+}
+
+.po h4{
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+     color: rgba(255, 255, 255, 0.9);
+    margin-left: 15px;
+    margin-top: 180px;
+    
+}
+.po p{
+    font-weight: 400;
+    margin: 5px;
+    font: 10px,"open sans",arial,sans-serif;
+    font-weight: 300;
+    color: #ffffffb3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+.ho{
+    display: flex;
+}
+.go img{
+    vertical-align: middle;
+    margin-left: 35px;
+    margin-top: -40px;
+}
+.ho{
+    background-image: url("https://codeyogi.io/images/bgbanner.jpg");
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 452px;
+  margin-bottom: 130px;
+}
+h3{
+    display: flex;
+    flex-direction: column;
+    font-family: Dosis, arial, sans-serif;
+    margin-bottom: 80px;
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5em;
+    line-height: 1.4;
+
+}
+.lomu{
+    display: flex;
+    flex-direction: column;
+    font-family: Dosis, arial, sans-serif;
+    margin-bottom: 90px;
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5em;
+    line-height: 1.4;   
+
+}
+.uppo{
+    margin-bottom: 170px;
+}
+.uppo p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #777;
+    line-height: 1.7;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 89px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ropo{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    line-height: 1.7;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.labu{
+    margin-bottom: 50px;
+}
+.opo{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    line-height: 1.7;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: -15px;
+    margin-bottom: 28px;
+}
+.rosh{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+    width: 100%;
+}
+.bosh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bosh p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.86;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.gosh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gosh p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.86;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.vosh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vosh p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.86;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.damru{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
+    width: 100%;
+}
+.bamru{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bamru p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.86;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.polo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 140px;
+    width: 100%;
+}
+.lolo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lolo p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.86;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.dolo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dolo p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.86;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.rolo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rolo p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.86;
+    font-family: Arial, Helvetica, sans-serif;      
+}
+.fomu{
+    display: flex;
+    flex-direction: column;
+    font-family: Dosis, arial, sans-serif;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+.twel{
+    margin-bottom: 100px;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 303px;
+}
+.put{
+    height: 37px;
+    width: 293px;
+    padding: 6px 13px;
+    border-radius: 2px;
+    border-style: solid ;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+button{
+    border-radius: 2px;
+    height: auto;
+    padding: 8px 37px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(34, 34, 34, 0.9);
+    border: 2px solid transparent;
+    color: #fff;
+}
+.twel p{
+    font-size: 14px;
+    color: #aaa; 
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.wew{
+    display: flex;
+}
+.wew img{
+    margin-top: 11px;
+    margin-right: 2px;
+}
+.yogi{
+    display: flex;
+    margin-bottom: 110px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.diamo{
+    height: 30px;
+    transform:rotate(45deg);
+      width:30px;
+      margin-top: 30px;
+      border-radius: 2px;
+      margin-bottom: 5px;
+      border-style: solid ;
+      border: 1px solid #111;
+      padding: 3px;
+      margin: 8px;
+}
+.huhu{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.huhu p{
+    color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+    font-size: 13px;
+} 
+.pogi{
+    transform:rotate(-45deg);
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top:-4px;
+    margin-right: -17px;
+}
+.rto{
+    cursor: pointer;
+}
+.two:hover{
+    background: black;
+}
+.huhu a p:hover{
+    text-decoration: underline;
+    color: #111;
+    transition-duration: 2s;
+}
+nav.sticky{
+    padding: 0px 0px;
+    background: black;
+
+}
+nav{
+    transition: 0.5s;
+}
